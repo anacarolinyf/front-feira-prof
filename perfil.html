@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Meu Perfil | Feira Tecnológica ETEC MCM 2026
+    </title>
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="../css/style.css">
+
+    <!-- FONT AWESOME -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+<div class="app">
+
+
+    <!-- =====================================================
+         MENU DESKTOP
+    ====================================================== -->
+
+    <aside class="sidebar">
+
+
+        <!-- LOGO -->
+
+        <div class="brand">
+
+            <div class="brand-logo">
+
+                ETEC
+
+                <span>
+                    MCM
+                </span>
+
+            </div>
+
+
+            <div class="brand-text">
+
+                <strong>
+                    Feira Tecnológica
+                </strong>
+
+                <small>
+                    ETEC Maria Cristina Medeiros
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- TÍTULO -->
+
+        <div class="menu-title">
+            ÁREA DO PROFESSOR
+        </div>
+
+
+        <!-- MENU -->
+
+        <nav class="desktop-nav">
+
+
+            <a
+                href="#"
+                class="nav-item active">
+
+                <span class="nav-icon">
+                    <i class="fa-solid fa-user"></i>
+                </span>
+
+                <span>
+                    Perfil
+                </span>
+
+            </a>
+
+
+            <a
+                href="#"
+                class="nav-item">
+
+                <span class="nav-icon">
+                    <i class="fa-solid fa-file-lines"></i>
+                </span>
+
+                <span>
+                    Trabalhos Orientados
+                </span>
+
+            </a>
+
+
+            <a
+                href="#"
+                class="nav-item">
+
+                <span class="nav-icon">
+                    <i class="fa-solid fa-bullhorn"></i>
+                </span>
+
+                <span>
+                    Avisos
+                </span>
+
+            </a>
+
+
+            <a
+                href="#"
+                class="nav-item">
+
+                <span class="nav-icon">
+                    <i class="fa-solid fa-chart-column"></i>
+                </span>
+
+                <span>
+                    Avaliações Gerais
+                </span>
+
+            </a>
+
+
+        </nav>
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL
+    ====================================================== -->
+
+    <main class="main-content">
+
+
+        <!-- TOPO -->
+
+        <header class="topbar">
+
+
+            <!-- VOLTAR MOBILE -->
+
+            <div class="mobile-back">
+                ‹
+            </div>
+
+
+            <div class="page-title">
+
+                <h1>
+                    Meu Perfil
+                </h1>
+
+                <p>
+                    Gerencie suas informações pessoais
+                </p>
+
+            </div>
+
+
+            <!-- SINO -->
+
+            <button
+                class="notification-btn"
+                id="notificationBtn"
+                aria-label="Notificações">
+
+                <i class="fa-solid fa-bell"></i>
+
+                <span class="notification-count">
+                    3
+                </span>
+
+            </button>
+
+
+        </header>
+
+
+
+        <!-- =================================================
+             CARD DO PROFESSOR
+        ================================================== -->
+
+        <section class="profile-card">
+
+
+            <div class="avatar">
+                CA
+            </div>
+
+
+            <div class="profile-info">
+
+
+                <h2>
+                    Prof. Carlos Almeida
+                </h2>
+
+
+                <p>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    carlos.almeida@etecmcm.sp.gov.br
+
+                </p>
+
+
+                <p>
+
+                    <i class="fa-solid fa-building-columns"></i>
+
+                    Orientador — ETEC Maria Cristina Medeiros
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =================================================
+             EDITAR INFORMAÇÕES
+        ================================================== -->
+
+        <section class="edit-card">
+
+
+            <div class="section-title">
+
+
+                <span class="section-icon">
+
+                    <i class="fa-solid fa-user-pen"></i>
+
+                </span>
+
+
+                <h2>
+                    Editar Informações
+                </h2>
+
+
+            </div>
+
+
+
+            <form id="profileForm">
+
+
+                <div class="form-grid">
+
+
+                    <!-- NOME -->
+
+                    <div class="form-group">
+
+
+                        <label for="nome">
+                            Nome completo
+                        </label>
+
+
+                        <input
+                            type="text"
+                            id="nome"
+                            value="Carlos Almeida">
+
+
+                    </div>
+
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+
+                        <label for="email">
+                            E-mail
+                        </label>
+
+
+                        <input
+                            type="email"
+                            id="email"
+                            value="carlos.almeida@etecmcm.sp.gov.br">
+
+
+                    </div>
+
+
+
+                    <!-- TELEFONE -->
+
+                    <div class="form-group phone-field">
+
+
+                        <label for="telefone">
+                            Telefone
+                        </label>
+
+
+                        <input
+                            type="tel"
+                            id="telefone"
+                            value="(11) 99999-8888">
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- BOTÕES -->
+
+                <div class="form-actions">
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary">
+
+                        <i class="fa-solid fa-floppy-disk"></i>
+
+                        <span>
+                            Salvar Alterações
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="btn btn-secondary"
+                        id="cancelBtn">
+
+                        Cancelar
+
+                    </button>
+
+
+                </div>
+
+
+                <div
+                    class="feedback"
+                    id="feedback">
+                </div>
+
+
+            </form>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================================
+         MENU MOBILE
+    ====================================================== -->
+
+    <nav class="mobile-nav">
+
+
+        <a
+            href="#"
+            class="mobile-nav-item">
+
+
+            <span>
+
+                <i class="fa-solid fa-chart-column"></i>
+
+            </span>
+
+
+            <small>
+
+                Avaliações
+                <br>
+                Gerais
+
+            </small>
+
+
+        </a>
+
+
+
+        <a
+            href="#"
+            class="mobile-nav-item">
+
+
+            <span>
+
+                <i class="fa-solid fa-file-lines"></i>
+
+            </span>
+
+
+            <small>
+
+                Trabalhos
+                <br>
+                Orientados
+
+            </small>
+
+
+        </a>
+
+
+
+        <a
+            href="#"
+            class="mobile-nav-item">
+
+
+            <span>
+
+                <i class="fa-solid fa-bullhorn"></i>
+
+            </span>
+
+
+            <small>
+                Avisos
+            </small>
+
+
+        </a>
+
+
+
+        <a
+            href="#"
+            class="mobile-nav-item current">
+
+
+            <span>
+
+                <i class="fa-solid fa-user"></i>
+
+            </span>
+
+
+            <small>
+                Perfil
+            </small>
+
+
+        </a>
+
+
+    </nav>
+
+
+</div>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script src="../js/script.js"></script>
+
+
+</body>
+
+</html>
