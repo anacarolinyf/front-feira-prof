@@ -1,0 +1,32 @@
+# Portal do Professor — HTML, CSS e JavaScript puro
+
+Esta pasta contém a conversão do portal originalmente desenvolvido em React/TypeScript para uma implementação estática baseada exclusivamente em **HTML5, CSS3 e JavaScript nativo**. O resultado não depende de React, JSX, Vite, Tailwind, npm, Node.js em tempo de execução ou bibliotecas JavaScript externas.
+
+## Como executar
+
+Abra o arquivo `index.html` diretamente no navegador. Ele encaminha para `index-login.html`. Também é possível abrir qualquer tela diretamente pelo respectivo arquivo HTML.
+
+| Arquivo | Tela |
+| --- | --- |
+| `index-login.html` | Login do professor |
+| `index-dashboard.html` | Dashboard com métricas e projetos |
+| `index-avaliacao.html` | Avaliação com critérios e notas editáveis |
+| `index-trabalhos.html` | Lista de trabalhos orientados |
+| `index-avisos.html` | Avisos institucionais |
+| `index-perfil.html` | Perfil e formulário de informações |
+| `index-popup-olho.html` | Detalhes do projeto em formato de popup |
+| `index-popup-trabalhos.html` | Projetos orientados em formato de popup |
+
+## O que foi convertido
+
+A navegação que era controlada por estado React passou a usar links e botões com `data-page`. Os componentes de tabela, métricas, perfil, avisos e modais foram convertidos para marcação HTML sem JSX. Os eventos de login, alternância de senha, abertura e fechamento de popups, navegação, salvamento do perfil, sincronização entre sliders e campos numéricos, contador de caracteres e feedback de salvamento são controlados pelo arquivo `script.js`.
+
+O visual foi centralizado em `style.css`, preservando a paleta bordô, o espaçamento, os cartões, a tabela responsiva, a navegação lateral, a navegação inferior em telas pequenas, os estados de foco e as animações reduzidas para usuários que preferem menos movimento.
+
+## Assets
+
+Os recursos gráficos referenciados pelo React original não estavam presentes no ZIP recebido e apontavam para `/manus-storage`. Para que a versão convertida funcione localmente sem dependências externas, foram incluídos SVGs locais em `assets/` para o fundo do login, a textura do popup e a imagem ilustrativa do projeto. O emblema MCM também foi reproduzido diretamente com HTML e CSS.
+
+## Validação
+
+A versão final foi verificada para confirmar que todas as páginas carregam `style.css` e `script.js`, que os assets locais referenciados existem, que não há referências de React, JSX, TSX, Vite, Tailwind, jQuery, `node_modules`, `/manus-storage` ou URLs externas no runtime e que o JavaScript possui sintaxe válida.

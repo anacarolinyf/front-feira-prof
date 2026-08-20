@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#7a0714">
+    <title>Perfil | Feira Tecnológica</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body data-page="profile">
+    <main class="portal">
+      <aside class="sidebar" aria-label="Navegação da área do professor">
+        <a class="brand-lockup" href="dashboard.html" aria-label="Feira Tecnológica — página inicial"><span class="brand-emblem">MCM</span><span class="brand-copy"><strong>Feira Tecnológica</strong><span>ETEC Maria Cristina Medeiros</span></span></a>
+        <p class="sidebar-label">Área do Professor</p>
+        <nav class="side-nav" aria-label="Navegação principal">
+          <button type="button" data-page="dashboard.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5z"></path><path d="M8 4v4h8V4M8 13l2 2 4-4"></path></svg>Avaliações Gerais</button>
+          <button type="button" data-page="trabalhos.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v14h-7z"></path><path d="M7 9h1M7 13h1M16 9h1M16 13h1"></path></svg>Trabalhos Orientados</button>
+          <button type="button" data-page="avisos.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"></path></svg>Avisos</button>
+          <button class="active" type="button" data-page="perfil.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 21a7.5 7.5 0 0 1 15 0"></path></svg>Perfil</button>
+        </nav>
+        <p class="sidebar-footer">Feira Tecnológica · 2026</p>
+      </aside>
+      <section class="content-column">
+        <header class="topbar"><div><p class="eyebrow">ÁREA DO PROFESSOR</p><h1>Meu Perfil</h1><p>Gerencie suas informações pessoais.</p></div><button class="notification-button" type="button" data-notification="Sem novos avisos." aria-label="Ver avisos"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"></path></svg><i class="notification-dot"></i></button></header>
+        <section class="profile-card"><span class="profile-avatar">CA</span><div><h2>Prof. Carlos Almeida</h2><p><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h16v14H4z"></path><path d="m4 7 8 6 8-6"></path></svg>carlos.almeida@etecmcm.sp.gov.br</p><p><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s7-6 7-12a7 7 0 1 0-14 0c0 6 7 12 7 12Z"></path><circle cx="12" cy="9" r="2"></circle></svg>Orientador — ETEC Maria Cristina Medeiros</p></div></section>
+        <section class="form-card"><h3>Editar Informações</h3><form id="profile-form"><div class="form-grid"><div class="form-group"><label for="name">Nome completo</label><input id="name" name="name" data-profile-field value="Carlos Almeida"></div><div class="form-group"><label for="email">E-mail</label><input id="email" name="email" data-profile-field type="email" value="carlos.almeida@etecmcm.sp.gov.br"></div><div class="form-group"><label for="phone">Telefone</label><input id="phone" name="phone" data-profile-field value="(11) 99999-8888"></div></div><div class="form-actions"><button class="compact-button" type="submit"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 3h12l2 2v16H5V3Z"></path><path d="M8 3v6h8V3M8 21v-7h8v7"></path></svg>Salvar Alterações</button><button class="secondary-button" id="cancel-profile" type="button">Cancelar</button></div></form></section>
+      </section>
+      <nav class="mobile-nav" aria-label="Navegação móvel"><button type="button" data-page="dashboard.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5z"></path><path d="M8 4v4h8V4M8 13l2 2 4-4"></path></svg><span>Avaliações</span></button><button type="button" data-page="index-trabalhos.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v14h-7z"></path></svg><span>Orientados</span></button><button class="active" type="button" data-page="index-perfil.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 21a7.5 7.5 0 0 1 15 0"></path></svg><span>Perfil</span></button></nav>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
