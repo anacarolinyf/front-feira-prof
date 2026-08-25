@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#7a0714">
+    <title>Avaliação de Projeto | Feira Tecnológica</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body data-page="evaluations">
+    <main class="portal">
+      <aside class="sidebar" aria-label="Navegação da área do professor">
+        <a class="brand-lockup" href="dashboard.html" aria-label="Feira Tecnológica — página inicial"><span class="brand-emblem">MCM</span><span class="brand-copy"><strong>Feira Tecnológica</strong><span>ETEC Maria Cristina Medeiros</span></span></a>
+        <p class="sidebar-label">Área do Professor</p>
+        <nav class="side-nav" aria-label="Navegação principal">
+          <button class="active" type="button" data-page="dashboard.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5z"></path><path d="M8 4v4h8V4M8 13l2 2 4-4"></path></svg>Avaliações Gerais</button>
+          <button type="button" data-page="trabalhos.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v14h-7z"></path><path d="M7 9h1M7 13h1M16 9h1M16 13h1"></path></svg>Trabalhos Orientados</button>
+          <button type="button" data-page="avisos.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"></path></svg>Avisos</button>
+          <button type="button" data-page="perfil.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 21a7.5 7.5 0 0 1 15 0"></path></svg>Perfil</button>
+        </nav>
+        <p class="sidebar-footer">Feira Tecnológica · 2026</p>
+      </aside>
+
+      <section class="content-column">
+        <button class="back-link" type="button" data-page="dashboard.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"></path></svg>Voltar</button>
+        <header class="topbar"><div><p class="eyebrow">AVALIAÇÕES GERAIS</p><h1>EcoSense</h1><p>Revise as informações para concluir a avaliação do projeto.</p></div><button class="notification-button" type="button" data-notification="Sem novos avisos." aria-label="Ver avisos"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"></path></svg><i class="notification-dot"></i></button></header>
+
+        <section class="evaluation-grid">
+          <article class="evaluation-card">
+            <div class="project-ident"><span class="round-project-icon"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5z"></path><path d="M8 4v4h8V4M8 13l2 2 4-4"></path></svg></span><div><h2>Avaliar: ReciclaU — Triagem Inteligente de Resíduos</h2><p>Estande B-12 · Equipe: João Pedro, Larissa Freitas, Raquel Souza</p></div></div>
+            <div class="evaluation-section"><h3>Descrição do projeto</h3><p>Sistema IoT para monitoramento da qualidade e do nível de poluição em tempo real, com alertas automáticos para a comunidade escolar.</p></div>
+            <div class="evaluation-section evaluation-form" id="evaluation-form"><h3>Critérios de avaliação</h3>
+              <div class="criterion" data-criterion><div class="criterion-copy"><h3>Inovação e originalidade <span class="rubric-score" data-score-label>9 / 10</span></h3><p>Analise a criatividade da solução e o diferencial apresentado.</p></div><div class="score-control"><label class="screen-reader-only" for="range-innovation">Nota de inovação e originalidade</label><input id="range-innovation" class="score-range" type="range" min="0" max="10" step="0.5" value="9"><label class="screen-reader-only" for="score-innovation">Campo de nota de inovação e originalidade</label><input id="score-innovation" class="score-input" type="number" min="0" max="10" step="0.5" value="9" inputmode="decimal"></div></div>
+              <div class="criterion" data-criterion><div class="criterion-copy"><h3>Viabilidade técnica <span class="rubric-score" data-score-label>8,5 / 10</span></h3><p>Considere a execução, os recursos utilizados e o funcionamento do protótipo.</p></div><div class="score-control"><label class="screen-reader-only" for="range-technical">Nota de viabilidade técnica</label><input id="range-technical" class="score-range" type="range" min="0" max="10" step="0.5" value="8.5"><label class="screen-reader-only" for="score-technical">Campo de nota de viabilidade técnica</label><input id="score-technical" class="score-input" type="number" min="0" max="10" step="0.5" value="8.5" inputmode="decimal"></div></div>
+              <div class="criterion" data-criterion><div class="criterion-copy"><h3>Impacto e sustentabilidade <span class="rubric-score" data-score-label>9,5 / 10</span></h3><p>Avalie o potencial de impacto social, ambiental ou educacional.</p></div><div class="score-control"><label class="screen-reader-only" for="range-impact">Nota de impacto e sustentabilidade</label><input id="range-impact" class="score-range" type="range" min="0" max="10" step="0.5" value="9.5"><label class="screen-reader-only" for="score-impact">Campo de nota de impacto e sustentabilidade</label><input id="score-impact" class="score-input" type="number" min="0" max="10" step="0.5" value="9.5" inputmode="decimal"></div></div>
+              <div class="criterion" data-criterion><div class="criterion-copy"><h3>Apresentação e domínio do tema <span class="rubric-score" data-score-label>8 / 10</span></h3><p>Observe a comunicação da equipe e o domínio dos conteúdos apresentados.</p></div><div class="score-control"><label class="screen-reader-only" for="range-presentation">Nota de apresentação e domínio do tema</label><input id="range-presentation" class="score-range" type="range" min="0" max="10" step="0.5" value="8"><label class="screen-reader-only" for="score-presentation">Campo de nota de apresentação e domínio do tema</label><input id="score-presentation" class="score-input" type="number" min="0" max="10" step="0.5" value="8" inputmode="decimal"></div></div>
+            </div>
+            <div class="evaluation-section"><h3>Comentários do avaliador</h3><textarea class="comment-box" id="general-summary" maxlength="800" placeholder="Descreva os principais pontos observados durante a avaliação, recomendações e comentários para a equipe.">Ótimo projeto! Parabéns pela iniciativa e pela entrega.</textarea></div>
+            <div class="form-actions"><p id="form-status" role="status" aria-live="polite"></p><button class="compact-button" id="save-evaluation" type="button"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 3h12l2 2v16H5V3Z"></path><path d="M8 3v6h8V3M8 21v-7h8v7"></path></svg>Salvar avaliação</button><button class="secondary-button" type="button" data-page="dashboard.html">Cancelar</button></div>
+          </article>
+          <aside class="evaluation-aside">
+            <article class="aside-card"><h3>Professor orientador</h3><div class="advisor"><span class="mini-avatar">AS</span><div><strong>Ana Beatriz Silva</strong><span>Orientadora responsável</span></div></div></article>
+            <article class="aside-card"><h3>Foto do projeto</h3><img class="project-photo" src="assets/farmbot-project.svg" alt="Protótipo tecnológico de monitoramento agrícola"></article>
+            <article class="aside-card"><h3>Resumo da avaliação</h3><dl class="summary-list"><div><dt>Período</dt><dd>Manhã</dd></div><div><dt>Turma</dt><dd>1º DSA</dd></div><div><dt>Série</dt><dd>Série 1</dd></div><div><dt>Nota</dt><dd style="color:var(--green)">7,2</dd></div><div><dt>Avaliado em</dt><dd>06/05/2026</dd></div></dl></article>
+          </aside>
+        </section>
+      </section>
+      <nav class="mobile-nav" aria-label="Navegação móvel"><button class="active" type="button" data-page="dashboard.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5z"></path><path d="M8 4v4h8V4M8 13l2 2 4-4"></path></svg><span>Avaliações</span></button><button type="button" data-page="trabalhos.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h7v14H4zM13 5h7v14h-7z"></path></svg><span>Orientados</span></button><button type="button" data-page="perfil.html"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"></circle><path d="M4.5 21a7.5 7.5 0 0 1 15 0"></path></svg><span>Perfil</span></button></nav>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
